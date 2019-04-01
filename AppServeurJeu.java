@@ -3,7 +3,7 @@ public class AppServeurJeu {
 	public static void main( String [] args ) {
 		
 		// Création du serveur
-		
+		System.out.println( "\nCRÉATION DU SERVEUR" ) ;
 		Serveur srv = new Serveur( 1 , "SRV-GAMES-1" ) ;
 		
 		
@@ -14,16 +14,16 @@ public class AppServeurJeu {
 		
 		
 		// Création du premier jeu
-		
+		System.out.println( "\nCRÉATION DU PREMIER JEU : Waterloo" ) ;
 		Jeu j1 = new Jeu( 1 , "Waterloo" ) ;
 		
 		
 		// Ajout du premier jeu au serveur
-		
+		System.out.println( "\nLE PREMIER JEU EST AJOUTÉ AU SERVEUR" ) ;
 		srv.ajouterJeu( j1 ) ;
 		
 		// Ajout du second jeu au serveur
-		
+		System.out.println( "\nCRÉATION ET AJOUT AU SERVEUR DU SECOND JEU : Verdun 1916" ) ;
 		srv.ajouterJeu( new Jeu( 2 , "Verdun 1916" ) ) ;
 		
 		
@@ -46,7 +46,7 @@ public class AppServeurJeu {
 		
 		
 		// Suppression du premier jeu du serveur
-		
+		System.out.println( "\nLE PREMIER JEU EST RETIRÉ DU SERVEUR" ) ;
 		srv.supprimerJeu( j1 ) ;
 		
 		
