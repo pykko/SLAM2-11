@@ -3,7 +3,7 @@ public class AppTournoiPeriode {
 	public static void main( String [] args ) {
 		
 		// Création de la période
-		
+		System.out.println( "\nCRÉATION DE LA PÉRIODE" ) ;
 		Periode prd = new Periode() ;
 		prd.setDebut( LocalDate.of( 2019 , 7 , 5 ) ) ;
 		prd.setFin( LocalDate.of( 2019 , 7 , 22 ) ) ;
@@ -16,7 +16,7 @@ public class AppTournoiPeriode {
 		
 		
 		// Création du tournoi
-		
+		System.out.println( "\nCRÉATION DU TOURNOI" ) ;
 		Tournoi trn = new Tournoi( 1 , 'Waterloo' , prd ) ;
 		
 		

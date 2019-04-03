@@ -65,7 +65,7 @@ public class AppCasePion {
 		
 		
 		// Le chat noir se déplace vers l'Est donc sur la case c(2,4)
-		System.out.println( "\nLE CHAT NOIR SE DÉPLACE D'UNE PLACE À L'EST (CASE c(2,4))" ) ;
+		System.out.println( "\nLE CHAT NOIR SE DÉPLACE D'UNE CASE DANS LA DIRECTION DE L'EST (CASE c(2,4))" ) ;
 		pnChatNoir.setLaCase( cs24 ) ;
 		
 		

@@ -3,7 +3,7 @@ public class AppJoueurEquipe {
 	public static void main( String [] args ) {
 		
 		// Création du joueur Hamza
-		
+		System.out.println( "\nCRÉATION DU JOUEUR HAMZA" ) ;
 		Joueur jr1 = new Joueur( 1 , "Hamza" ) ;
 		
 		
@@ -19,12 +19,12 @@ public class AppJoueurEquipe {
 		
 		
 		// Création de l'équipe orange
-		
+		System.out.println( "\nCRÉATION DE L'ÉQUIPE ORANGE" ) ;
 		Equipe eqp = new Equipe( 3 , "Orange" ) ;
 		
 		
 		// Le joueur Hamza intègre l'équipe orange
-		
+		System.out.println( "\nLE JOUEUR HAMZA REJOINT L'ÉQUIPE ORANGE" ) ;
 		jr1.setSonEquipe( eqp ) ;
 		
 		
@@ -46,7 +46,7 @@ public class AppJoueurEquipe {
 		
 		
 		// Création de la joueuse Ilona
-		
+		System.out.println( "\nCRÉATION DE LA JOUEUSE ILONA QUI FAIT PARTIE DE L'ÉQUIPE ORANGE" ) ;
 		Joueur jr2 = new Joueur( 2 , "Ilona" , eqp) ;
 		
 		
@@ -68,7 +68,7 @@ public class AppJoueurEquipe {
 		
 		
 		// La joueuse Ilona quitte son équipe
-		
+		System.out.println( "\nLA JOUEUSE ILONA QUITTE L'ÉQUIPE ORANGE" ) ;
 		jr2.setSonEquipe( null ) ;
 		
 		
