@@ -17,7 +17,7 @@ public class AppTournoiPeriode {
 		
 		// Création du tournoi
 		System.out.println( "\nCRÉATION DU TOURNOI" ) ;
-		Tournoi trn = new Tournoi( 1 , 'Waterloo' , prd ) ;
+		Tournoi trn = new Tournoi( 1 , "Waterloo" , prd ) ;
 		
 		
 		// Affichage de l'année du début de la période du tournoi
