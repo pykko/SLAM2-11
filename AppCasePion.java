@@ -48,7 +48,7 @@ public class AppCasePion {
 		
 		// Affichage des coordonnées de la case occupée par le chat noir
 		
-		System.out.println( "\4 - Coordonnées de la case occupée par le chat noir : " + pnChatNoir.getLaCase().getLigne() + "," + pnChatNoir.getLaCase().getColonne() ) ;
+		System.out.println( "\n4 - Coordonnées de la case occupée par le chat noir : " + pnChatNoir.getLaCase().getLigne() + "," + pnChatNoir.getLaCase().getColonne() ) ;
 			// Doit afficher : 4 - Coordonnées de la case occupée par le chat noir : 2,3
 		
 		
